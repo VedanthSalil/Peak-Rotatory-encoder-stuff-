@@ -22,8 +22,8 @@ and inside this if statement we can run 2 other if statements ,
 one that increments the position variable when encoder is turned to the right and the 2nd if statement decreases the value of the position variable , and that probably is the cleanest and simplest code for the rotatory encoder.
 
 ```cpp
- if( DT != CLK){} \\ if statement for when its rotated clockwise
-if(CLK == DT){} \\ if statement when its rotated counter clockwise  cause  CLK and DT when going CCW
+ if( DT != CLK){} // if statement for when its rotated clockwise
+if(CLK == DT){} //if statement when its rotated counter clockwise  cause  CLK and DT when going CCW
 ```
 
 
